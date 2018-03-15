@@ -9,7 +9,7 @@
         "**/.gitignore": true
     },
 
-    "editor.fontSize": 14,
+    "editor.fontSize": 12,
     "editor.quickSuggestions": true,
     "editor.parameterHints": true,
     "editor.wordBasedSuggestions": true,
