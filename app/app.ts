@@ -1,7 +1,15 @@
 function startGame() {
     // starting a new game
     var messageElement = document.getElementById('messages');
-    messageElement.innerText = 'Welcome to MultiMath! Starting new game...';
+    // ! operator in typescript after object method
+    // https://stackoverflow.com/questions/38874928/operator-in-typescript-after-object-method
+    if (messageElement) {
+        messageElement!.innerText = 'Welcome to MultiMath! Starting new game...';
+        console.log('Starting new game.');
+    }
 }
 
-document.getElementById('startGame').addEventListener('click', startGame);
+var startGameButton = document.getElementById('startGame');
+if (startGameButton) {
+    startGameButton!.addEventListener('click', startGame);
+}
