@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    /* Basic Options */
+    "removeComments": true                /* Do not emit comments to output. */
+  },
+  "include": [
+    "./**/*"    
+  ]
+}
