@@ -1,8 +1,6 @@
 {
     "files.autoSave": "afterDelay",
 
-    "vsicons.presets.angular": false,
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -11,8 +9,7 @@
         "**/.gitignore": true
     },
 
-    "editor.fontFamily": "Roboto Mono",
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.quickSuggestions": true,
     "editor.parameterHints": true,
     "editor.wordBasedSuggestions": true,
