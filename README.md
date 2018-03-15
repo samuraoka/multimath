@@ -4,5 +4,5 @@ https://app.pluralsight.com/library/courses/typescript-getting-started/table-of-
 
 `PS> $env:NODE_PATH = "${PWD}\node_modules"`  
 `PS> $env:PATH += ";${env:NODE_PATH}\.bin"`  
-`PS> tsc app.ts`  
+`PS> tsc`  
 `PS> npm start`  
